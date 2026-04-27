@@ -1,0 +1,42 @@
+# 가상 환경 폴더 제외
+venv/
+.venv/
+env/
+.env
+.env.*
+!.env.example
+bin/
+lib/
+
+# 파이썬 캐시 파일 제외
+__pycache__/
+*.pyc
+
+# IDE 설정 파일 (선택 사항)
+.vscode/
+.idea/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
